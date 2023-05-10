@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+
 :root {
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
@@ -15,31 +17,35 @@ body {
     font-family: 'Outfit', sans-serif;
     font-weight: 400 700;
     background: var(--light-gray);
-    text-align: center;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 h1 {
-    margin: 15px 0;
     color: var(--dark-blue);
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 700;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
 }
 
 p {
     font-size: 15px;
     color: var(--grayish-blue);
+    text-align: center;
+    margin: 0.75rem;
 }
 
 .qr-container {
     background: var(--white);
-    width: 275px;
+    max-width: 18rem;
+    padding: 1rem;
     margin: 0 auto;
-    padding: 15px 30px 30px 30px;
-    border-radius: 15px;
+    border-radius: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -47,8 +53,8 @@ p {
 }
 
 .qr-img {
-    width: 250px;
-    border-radius: 15px;
+    max-width: 100%;
+    border-radius: 1rem;
 }
 
 .attribution {

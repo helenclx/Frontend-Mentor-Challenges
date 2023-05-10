@@ -13,6 +13,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -61,3 +62,7 @@ This challenge has been a good exercise in practicing my HTML and CSS skills, an
 
 - Website - [Helen Chong](https://helenclx.github.io/)
 - Frontend Mentor - [@helenclx](https://www.frontendmentor.io/profile/helenclx)
+
+## Acknowledgments
+
+- [Hassia Issah](https://www.frontendmentor.io/profile/Hassiai) for providing feedback to improve my code.
