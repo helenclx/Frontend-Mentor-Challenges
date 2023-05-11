@@ -60,7 +60,7 @@ p {
 .attribution {
     font-size: 11px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 0.5rem;
 }
 
 .attribution a {
