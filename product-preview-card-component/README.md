@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://your-solution-url.com
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-css-grid-and-flexbox-Rui57Kc09b
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/product-preview-card-component/
 
 ## My process
