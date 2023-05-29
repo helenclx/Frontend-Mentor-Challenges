@@ -14,7 +14,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-<!-- - [Acknowledgments](#acknowledgments) -->
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -42,10 +42,13 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Mobile-first workflow
 
 ### What I learned
 
 I got more practice in positioning items with CSS grid and Flexbox.
+
+I also started learning to write CSS with a mobile-first workflow in order to improve my web page layout on mobile devices.
 
 ### Continued development
 
@@ -65,6 +68,6 @@ I aim to refine my techniques in positioning items on a web page by using CSS gr
 - Website - [Helen Chong](https://helenclx.github.io/)
 - Frontend Mentor - [@helenclx](https://www.frontendmentor.io/profile/helenclx)
 
-<!-- ## Acknowledgments
+## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit. -->
+- [Arif Faisal](https://www.frontendmentor.io/profile/arifaisal123) for providing feedback regarding the mobile layout, which helped me in rewriting CSS with mobile-first workflow.

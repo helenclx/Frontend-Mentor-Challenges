@@ -34,9 +34,6 @@ body {
     font-size: 1.125rem; /* 18px */
     font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: var(--pale-blue);
 }
 
@@ -44,28 +41,26 @@ main {
     flex-direction: column;
 }
 
-.result-container {
-    background: var(--white);
-    max-width: 36rem;
-    border-radius: var(--container-border-radius);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    box-shadow: 0 0 0.75rem hsl(0, 0%, 91%);
-}
-
 section {
     padding: 2rem;
+}
+
+.result-container {
+    background: var(--white);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    box-shadow: 0 0 0.75rem hsl(0, 0%, 91%);
 }
 
 .result-section {
     background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
     color: var(--white);
-    border-radius: var(--container-border-radius);
-    text-align: center;
+    border-radius: 0 0 var(--container-border-radius) var(--container-border-radius);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 }
@@ -110,11 +105,11 @@ section {
 }
 
 .summary-section {
+    background: var(--white);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 1.6rem;
-    max-width: 100%;
 }
 
 .summary-section h2 {
@@ -186,27 +181,36 @@ section {
 .attribution {
     font-size: 0.6875rem; /* 11px */
     text-align: center;
-    padding-top: 0.5rem;
+    padding: 0.5rem 0;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 480px) {
-    main {
+@media only screen and (min-width: 480px) {
+    body {
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 100%;
     }
-
+    
     .result-container {
-        grid-template-columns: 1fr;
-        border-radius: none;
+        max-width: 36rem;
+        border-radius: var(--container-border-radius);
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;;
     }
 
     .result-section {
-        border-radius: 0 0 var(--container-border-radius) var(--container-border-radius);
+        border-radius: var(--container-border-radius);
+    }
+
+    .summary-section {
+        border-radius: var(--container-border-radius);
+    }
+
+    .attribution {
+        padding: 0.5rem 0 0 0;
     }
 }
