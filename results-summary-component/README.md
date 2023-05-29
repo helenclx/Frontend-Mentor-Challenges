@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-results-summary-using-css-grid-and-flexbox-AY52dCLJrO
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/results-summary-component/
 
 ## My process
