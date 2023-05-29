@@ -55,7 +55,7 @@ I aim to refine my techniques in positioning items on a web page by using CSS gr
 
 ### Useful resources
 
-- [HTML <picture> Element](https://www.w3schools.com/htmL/html_images_picture.asp) on W3Schools
+- [HTML Picture Element](https://www.w3schools.com/htmL/html_images_picture.asp) on W3Schools
 - [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) by Chris House
 - [Complete CSS Grid Tutorial with Cheat Sheet](https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/) by Joy Shaheb
 - [GRID](https://grid.malven.co/) - A visual cheatsheet for CSS grid layout
