@@ -27,7 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+Desktop:
+![](./screenshot-desktop.png)
+
+Mobile:
+![](./screenshot-mobile.png)
 
 ### Links
 
@@ -42,6 +46,7 @@ Users should be able to:
 - CSS custom properties
 - CSS grid
 - Flexbox
+- Mobile-first workflow
 
 ### What I learned
 

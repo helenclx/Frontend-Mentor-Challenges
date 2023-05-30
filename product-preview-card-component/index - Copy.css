@@ -37,22 +37,20 @@ p {
 
 main {
     flex-direction: column;
-	max-width: 90%;
-	margin: 1.2rem 0;
 }
 
 .product-container {
+    max-width: 30rem;
     background: var(--white);
     border-radius: var(--container-border-radius);
-	box-shadow: 0 0 0.75rem hsl(0, 0%, 88%);
     display: grid;
-    grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 0 0.75rem hsl(0, 0%, 88%);
 }
 
 picture {
     overflow: hidden;
-	border-radius: var(--container-border-radius) var(--container-border-radius) 0 0;
+    border-radius: var(--container-border-radius) 0 0 var(--container-border-radius);
 }
 
 picture img {
@@ -67,17 +65,12 @@ picture img {
     flex-direction: column;
     justify-content: space-evenly;
     max-width: 100%;
-    padding: 1.2rem;
+    padding: 0 1.5rem;
 }
 
 .product-desc {
     line-height: 1.1rem;
     font-size: 0.7rem;
-	padding-bottom: 0.9rem;
-}
-
-.product-category, .product-name, .price-info {
-        padding-bottom: 0.6rem;
 }
 
 .product-category {
@@ -137,27 +130,33 @@ picture img {
     color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 90%;
+        margin: 1.2rem 0;
+    }
+
     .product-container {
-        max-width: 30rem;
-        grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr;
+        max-width: 100%;
+        grid-template-columns: 1fr;
     }
 
     picture {
-        border-radius: var(--container-border-radius) 0 0 var(--container-border-radius);
+        border-radius: var(--container-border-radius) var(--container-border-radius) 0 0;
     }
 
     .product-info {
-		padding: 0 1.5rem;
+        padding: 1.2rem;
     }
 
     .product-category, .product-name, .price-info {
-        padding-bottom: 0;
+        padding-bottom: 0.6rem;
     }
 
     .product-desc {
-        padding-bottom: 0;
+        padding-bottom: 0.9rem;
     }
-    
 }
