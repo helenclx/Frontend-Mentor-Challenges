@@ -29,16 +29,16 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop:
+Desktop:  
 ![](./screenshot-desktop.png)
 ![](./screenshot-desktop-2.png)
 
-Mobile:
-![](./screenshot-mobile.png)
+Mobile:  
+![](./screenshot-mobile.png) ![](./screenshot-mobile-2.png)
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-javascript-rfiO0cERCQ
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/interactive-rating-component/
 
 ## My process
