@@ -34,7 +34,7 @@ Desktop:
 ![](./screenshot-desktop-2.png)
 
 Mobile:  
-![](./screenshot-mobile.png) ![](./screenshot-mobile-2.png)
+![](./screenshot-mobile.png)
 
 ### Links
 
