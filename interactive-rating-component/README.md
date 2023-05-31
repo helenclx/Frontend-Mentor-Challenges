@@ -69,6 +69,8 @@ Element.addEventListener('click', () => {
 });
 ```
 
+I set up the page's script to prevent users from submitting without selecting their rating first.
+
 In addition, I learned to practice the habit of using `console.log()` to check if my JavaScript functions are working as intended, amd cheking the console output in my web browser's developer tool.
 
 ### Continued development

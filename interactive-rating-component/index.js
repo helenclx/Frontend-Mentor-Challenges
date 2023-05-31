@@ -10,7 +10,11 @@ function getRating(num) {
 }
 
 submitBtnEl.addEventListener('click', () => {
-    thankyouCardEl.classList.add("show");
-    ratingCardEl.classList.add("hidden");
-    userRatingEl.textContent = rating;
+    if (rating === 0) {
+        alert("Please select your rating!");
+    } else {
+        thankyouCardEl.classList.add("show");
+        ratingCardEl.classList.add("hidden");
+        userRatingEl.textContent = rating;
+    }
 });
