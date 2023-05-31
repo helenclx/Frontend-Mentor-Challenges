@@ -35,12 +35,9 @@ body {
     font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
     min-height: 100vh;
     background: var(--pale-blue);
-}
-
-main {
     flex-direction: column;
-}
 
+}
 section {
     padding: 2rem;
 }
