@@ -70,7 +70,7 @@ I aim to practice my JavaScript skills more to make web pages interactive.
 
 - [HTML onclick Attribute](https://www.w3schools.com/Tags/att_onclick.asp) by W3Schools
 - [HTML DOM Document addEventListener()](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) by W3Schools
-- [HTML DOM Element classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) by W3Schools
+- [HTML DOM Element style](https://www.w3schools.com/jsref/prop_html_style.asp) by W3Schools
 - [How to Style the Selected Label of a Radio Button](https://www.w3docs.com/snippets/css/how-to-style-the-selected-label-of-a-radio-button.html) by W3docs
 
 ## Author
