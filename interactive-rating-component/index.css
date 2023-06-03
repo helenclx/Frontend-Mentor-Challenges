@@ -42,7 +42,7 @@ main {
     max-width: 90%;
 }
 
-article {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -64,7 +64,7 @@ article {
     align-items: center;
 }
 
-.star-icon {
+.rating-card-img-section img {
     width: 1rem;
     height: auto;
 }
@@ -157,7 +157,7 @@ article {
 }
 
 @media only screen and (min-width: 480px) {
-    article {
+    .card {
         max-width: 25rem;
     }
 

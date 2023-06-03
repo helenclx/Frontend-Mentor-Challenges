@@ -15,36 +15,36 @@
     <body>
         <main>
             <!-- Rating state start -->
-            <article class="rating-card">
-                <section class="rating-card-img-section">
+            <div class="card rating-card">
+                <div class="rating-card-img-section">
                     <img src="./images/icon-star.svg" class="star-icon" alt="Star icon">
-                </section>
+                </div>
                 <h1>How did we do?</h1>
                 <p>
                     Please let us know how we did with your support request. All feedback is appreciated
                     to help us improve our offering!
                 </p>
-                <section class="rating-num-container">
+                <div class="rating-num-container">
                     <button class="num-btn" onclick="getRating(1)">1</button>
                     <button class="num-btn" onclick="getRating(2)">2</button>
                     <button class="num-btn" onclick="getRating(3)">3</button>
                     <button class="num-btn" onclick="getRating(4)">4</button>
                     <button class="num-btn" onclick="getRating(5)">5</button>
-                </section>
+                </div>
                 <button class="submit-btn">Submit</button>
-            </article>
+            </div>
             <!-- Rating state end -->
     
             <!-- Thank you state start -->
-            <article class="thankyou-card">
+            <div class="card thankyou-card">
                 <img src="./images/illustration-thank-you.svg" alt="Thank you illustration">
-                <section class="display-rating">You selected <span id="user-rating"></span> out of 5</section>
+                <div class="display-rating">You selected <span id="user-rating"></span> out of 5</div>
                 <h2>Thank you!</h2>
                 <p>
                     We appreciate you taking the time to give a rating. If you ever need more support,
                     don’t hesitate to get in touch!
                 </p>
-            </article>
+            </div>
             <!-- Thank you state end -->
         </main>
         <footer class="attribution">
