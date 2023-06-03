@@ -54,16 +54,9 @@ Mobile:
 
 ### What I learned
 
-I got to practice using JavaScript to add a CSS class with the `Element.classList` property, as well as making a web page interactive through JavaScript's `addEventListener()` method.
+The new thing I had learned was how to style radio buttons.
 
-For example:
-
-```js
-Element.addEventListener('click', () => {
-    // Add web page function here
-    comsole.log("Clicked");
-});
-```
+I got to practice setting up a form, using JavaScript to change a CSS property with the `element.style`, as well as making a web page interactive through JavaScript's `addEventListener()` method.
 
 I set up a variable and used `if...else` statement in JavaScript to prevent users from submitting without selecting their rating first.
 
