@@ -54,7 +54,7 @@ main {
 
 /* Rating card */
 
-.rating-card-img-section {
+.rating-card__img-div {
     background: var(--medium-grey);
     width: 2.5rem;
     height: 2.5rem;
@@ -64,7 +64,7 @@ main {
     align-items: center;
 }
 
-.rating-card-img-section img {
+.rating-card__star-icon {
     width: 1rem;
     height: auto;
 }
@@ -127,7 +127,7 @@ main {
     height: auto;
 }
 
-.display-rating {
+.thankyou-card__rating {
     padding: 0.3rem 1rem;
     border-radius: 20rem;
     background: var(--medium-grey);
