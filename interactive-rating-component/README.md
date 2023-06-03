@@ -14,7 +14,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-<!-- - [Acknowledgments](#acknowledgments) -->
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -54,13 +54,9 @@ Mobile:
 
 ### What I learned
 
-I got to practice using JavaScript to add a CSS class with the `Element.classList` property, as well as making a web page interactive through HTML's `onclick` attribute and JavaScript's `addEventListener()` method.
+I got to practice using JavaScript to add a CSS class with the `Element.classList` property, as well as making a web page interactive through JavaScript's `addEventListener()` method.
 
 For example:
-
-```html
-<button onclick="myFunction()">My Button</button>
-```
 
 ```js
 Element.addEventListener('click', () => {
@@ -82,12 +78,13 @@ I aim to practice my JavaScript skills more to make web pages interactive.
 - [HTML onclick Attribute](https://www.w3schools.com/Tags/att_onclick.asp) by W3Schools
 - [HTML DOM Document addEventListener()](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) by W3Schools
 - [HTML DOM Element classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) by W3Schools
+- [How to Style the Selected Label of a Radio Button](https://www.w3docs.com/snippets/css/how-to-style-the-selected-label-of-a-radio-button.html) by W3docs
 
 ## Author
 
 - Website - [Helen Chong](https://helenclx.github.io/)
 - Frontend Mentor - [@helenclx](https://www.frontendmentor.io/profile/helenclx)
 
-<!-- ## Acknowledgments
+## Acknowledgments
 
-- [Grace-Snow](https://fedmentor.dev/) for providing feedback to my solution that improved my code greatly, by replacing misused semantic HTML elments and rewrite the submission form. -->
+- [Grace-Snow](https://fedmentor.dev/) for providing feedback to my solution that improved my code, by replacing misused semantic HTML elments and rewrite the submission form.

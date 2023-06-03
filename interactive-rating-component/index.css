@@ -34,7 +34,9 @@ p {
     margin-top: -1rem;
 }
 
-button:hover {
+button:hover,
+label:hover,
+input[type=radio]:hover {
     cursor: pointer;
 }
 
@@ -69,35 +71,38 @@ main {
     height: auto;
 }
 
-.rating-num-container {
-    width: 100%;
+.rating-card__options {
+    border: none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* padding-bottom: 2rem; */
 }
 
-.num-btn {
-    border: none;
+input[name="rating"] {
+    display: none;
+}
+
+input[name="rating"] + label {
     background: var(--medium-grey);
     color: var(--light-grey);
-    width: 2.8rem;
-    height: 2.8rem;
-    border-radius: 50%;
+    border-radius: 100%;
+    width: 3rem;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
 }
 
-.num-btn:hover, .num-btn:focus {
+input[name="rating"] + label:hover {
+    background: var(--orange);
     color: var(--white);
 }
 
-.num-btn:hover {
-    background: var(--orange);
-}
-
-.num-btn:focus {
+input[name="rating"]:checked + label {
     background: var(--light-grey);
+    color: var(--white);
 }
 
-.submit-btn {
+.rating-card__submit-btn {
     border: none;
     border-radius: 20rem;
     padding: 0.8rem 0;
@@ -106,9 +111,10 @@ main {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
+    width: 100%;
 }
 
-.submit-btn:hover {
+.rating-card__submit-btn:hover {
     background: var(--white);
     color: var(--orange)
 }
@@ -134,16 +140,6 @@ main {
     color: var(--orange);
 }
 
-/* For showing or hiding a card */
-
-.show {
-    display: flex;
-}
-
-.hidden {
-    display: none;
-}
-
 /* Attribution */
 
 .attribution {
@@ -159,10 +155,5 @@ main {
 @media only screen and (min-width: 480px) {
     .card {
         max-width: 25rem;
-    }
-
-    .num-btn {
-        width: 3rem;
-        height: 3rem;
     }
 }

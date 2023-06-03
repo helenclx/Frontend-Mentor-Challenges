@@ -24,14 +24,25 @@
                     Please let us know how we did with your support request. All feedback is appreciated
                     to help us improve our offering!
                 </p>
-                <div class="rating-num-container">
-                    <button class="num-btn" onclick="getRating(1)">1</button>
-                    <button class="num-btn" onclick="getRating(2)">2</button>
-                    <button class="num-btn" onclick="getRating(3)">3</button>
-                    <button class="num-btn" onclick="getRating(4)">4</button>
-                    <button class="num-btn" onclick="getRating(5)">5</button>
-                </div>
-                <button class="submit-btn">Submit</button>
+                <form>
+                    <fieldset class="rating-card__options">
+                        <input type="radio" value="1" id="rating-1" name="rating">
+                        <label for="rating-1">1</label>
+
+                        <input type="radio" value="2" id="rating-2" name="rating">
+                        <label for="rating-2">2</label>
+
+                        <input type="radio" value="3" id="rating-3" name="rating">
+                        <label for="rating-3">3</label>
+
+                        <input type="radio" value="4" id="rating-4" name="rating">
+                        <label for="rating-4">4</label>
+
+                        <input type="radio" value="5" id="rating-5" name="rating">
+                        <label for="rating-5">5</label>
+                    </fieldset>
+                </form>
+                <button type="submit" class="rating-card__submit-btn">Submit</button>
             </div>
             <!-- Rating state end -->
     
