@@ -34,7 +34,7 @@ Mobile:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-order-summary-card-using-flexbox-LjQRt6r5am
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/order-summary-component/
 
 ## My process
