@@ -90,4 +90,4 @@ I aim to practice my JavaScript skills more to make web pages interactive.
 
 <!-- ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit. -->
+- [Grace-Snow](https://fedmentor.dev/) for providing feedback to my solution that improved my code greatly, by replacing misused semantic HTML elments and rewrite the submission form. -->
