@@ -56,7 +56,9 @@ Mobile:
 
 The new thing I had learned was how to style radio buttons.
 
-I got to practice setting up a form, using JavaScript to change a CSS property with the `element.style`, as well as making a web page interactive through JavaScript's `addEventListener()` method. The `change` event in particular is useful to update and register the input value.
+I got to practice setting up a form, using JavaScript to add a CSS class with the `Element.classList` property, as well as making a web page interactive through JavaScript's `addEventListener()` method. The `change` event in particular is useful to update and register the input value.
+
+I learned more about designing accessible web pages, such as using the `aria-live` attribute and the `:focus-visible` pseudo-class.
 
 I set up a variable and used `if...else` statement in JavaScript to prevent users from submitting without selecting their rating first.
 
@@ -64,15 +66,16 @@ In addition, I learned to practice the habit of using `console.log()` to check i
 
 ### Continued development
 
-I aim to practice my JavaScript skills more to make web pages interactive.
+I aim to practice making my web pages accessible and my JavaScript skills more to make web pages interactive.
 
 ### Useful resources
 
 - [Pure CSS Custom Styled Radio Buttons](https://moderncss.dev/pure-css-custom-styled-radio-buttons/) by Stephanie Eckles - This is a good guide for creating custom, accessible, cross-browser, theme-able, scalable radio buttons in pure CSS
-- [Accessible hiding and aria-hidden example](https://a11y-guidelines.orange.com/en/articles/accessible-hiding/) by Orange digital accessibly guidelines
+- [aria-live](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-live) by MDN Web Docs
+- [:focus-visible](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible) by MDN Web Docs
 - [HTML DOM Document addEventListener()](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) by W3Schools
 - [HTMLElement: change event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) by MDN Web Docs
-- [HTML DOM Element style](https://www.w3schools.com/jsref/prop_html_style.asp) by W3Schools
+- [HTML DOM Element classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) by MDN Web Docs
 - [Event: preventDefault() method](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault) by MDN Web Docs
 
 

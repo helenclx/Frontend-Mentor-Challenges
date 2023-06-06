@@ -167,4 +167,24 @@ input[name="rating"]:focus-visible + label,
     display: flex;
 }
 
-.hid
+.hidden {
+    display: none;
+}
+
+/* Attribution */
+
+.attribution {
+    font-size: 0.6875rem; /* 11px */
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.attribution a {
+    color: hsl(228, 98%, 76%);
+}
+
+@media only screen and (min-width: 480px) {
+    .card {
+        max-width: 25rem;
+    }
+}

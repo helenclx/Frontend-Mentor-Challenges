@@ -17,8 +17,8 @@ ratingFormEl.addEventListener('submit', (event) => {
     if (rating === 0) {
         alert("Please select your rating!");
     } else {
-        ratingCardEl.style.display = "none";
-        thankyouCardEl.style.display = "flex";
+        thankyouCardEl.classList.add("show");
+        ratingCardEl.classList.add("hidden");
         userRatingEl.textContent = rating;
         console.log("Rating submitted!");
     }
