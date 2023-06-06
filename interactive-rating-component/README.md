@@ -56,7 +56,7 @@ Mobile:
 
 The new thing I had learned was how to style radio buttons.
 
-I got to practice setting up a form, using JavaScript to change a CSS property with the `element.style`, as well as making a web page interactive through JavaScript's `addEventListener()` method.
+I got to practice setting up a form, using JavaScript to change a CSS property with the `element.style`, as well as making a web page interactive through JavaScript's `addEventListener()` method. The `change` event in particular is useful to update and register the input value.
 
 I set up a variable and used `if...else` statement in JavaScript to prevent users from submitting without selecting their rating first.
 
@@ -72,6 +72,7 @@ I aim to practice my JavaScript skills more to make web pages interactive.
 - [HTML DOM Document addEventListener()](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) by W3Schools
 - [HTML DOM Element style](https://www.w3schools.com/jsref/prop_html_style.asp) by W3Schools
 - [How to Style the Selected Label of a Radio Button](https://www.w3docs.com/snippets/css/how-to-style-the-selected-label-of-a-radio-button.html) by W3docs
+- [HTMLElement: change event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) by MDN Web Docs
 
 ## Author
 

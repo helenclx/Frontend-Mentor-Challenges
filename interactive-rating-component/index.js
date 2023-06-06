@@ -1,16 +1,17 @@
 const ratingCardEl = document.querySelector(".rating-card");
 const thankyouCardEl = document.querySelector(".thankyou-card");
-const ratingOptions = document.querySelectorAll("input[name=rating] + label");
+const ratingFormEl = document.querySelector(".rating-card__form");
+const ratingOptions = document.querySelectorAll("input[name=rating]");
 const submitBtnEl = document.querySelector(".rating-card__submit-btn");
 const userRatingEl = document.querySelector("#user-rating");
 
 let rating = 0;
 
-ratingOptions.forEach((btn) => {
-    btn.addEventListener('click', (e) => {
-        const selectedRating = e.target.textContent;
-        rating = parseInt(selectedRating);
-    })
+ratingOptions.forEach((option) => {
+    option.addEventListener('change', (event) => {
+        rating = parseInt(event.target.value);
+        console.log(`Your selected rating is: ${rating}`);
+    });
 })
 
 submitBtnEl.addEventListener('click', () => {
@@ -20,5 +21,6 @@ submitBtnEl.addEventListener('click', () => {
         ratingCardEl.style.display = "none";
         thankyouCardEl.style.display = "flex";
         userRatingEl.textContent = rating;
+        console.log("Rating submitted");
     }
 });
