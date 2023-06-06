@@ -73,6 +73,8 @@ I aim to practice my JavaScript skills more to make web pages interactive.
 - [HTML DOM Element style](https://www.w3schools.com/jsref/prop_html_style.asp) by W3Schools
 - [How to Style the Selected Label of a Radio Button](https://www.w3docs.com/snippets/css/how-to-style-the-selected-label-of-a-radio-button.html) by W3docs
 - [HTMLElement: change event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) by MDN Web Docs
+- [Event: preventDefault() method](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault) by MDN Web Docs
+
 
 ## Author
 
