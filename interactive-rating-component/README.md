@@ -68,11 +68,11 @@ I aim to practice my JavaScript skills more to make web pages interactive.
 
 ### Useful resources
 
-- [HTML onclick Attribute](https://www.w3schools.com/Tags/att_onclick.asp) by W3Schools
+- [Pure CSS Custom Styled Radio Buttons](https://moderncss.dev/pure-css-custom-styled-radio-buttons/) by Stephanie Eckles - This is a good guide for creating custom, accessible, cross-browser, theme-able, scalable radio buttons in pure CSS
+- [Accessible hiding and aria-hidden example](https://a11y-guidelines.orange.com/en/articles/accessible-hiding/) by Orange digital accessibly guidelines
 - [HTML DOM Document addEventListener()](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) by W3Schools
-- [HTML DOM Element style](https://www.w3schools.com/jsref/prop_html_style.asp) by W3Schools
-- [How to Style the Selected Label of a Radio Button](https://www.w3docs.com/snippets/css/how-to-style-the-selected-label-of-a-radio-button.html) by W3docs
 - [HTMLElement: change event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) by MDN Web Docs
+- [HTML DOM Element style](https://www.w3schools.com/jsref/prop_html_style.asp) by W3Schools
 - [Event: preventDefault() method](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault) by MDN Web Docs
 
 
