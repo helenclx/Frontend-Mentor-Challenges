@@ -118,6 +118,10 @@ input[name="rating"]:checked + label {
     color: var(--white);
 }
 
+input[name="rating"]:focus-visible {
+    outline: 0;
+}
+
 input[name="rating"]:focus-visible + label,
 .rating-card__submit-btn:focus-visible {
     outline: 0.2rem solid var(--white);
