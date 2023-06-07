@@ -25,7 +25,7 @@ body {
     flex-direction: column;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Fraunces', Times, serif;
     font-weight: 700;
     font-size: 1.6rem;
@@ -66,7 +66,7 @@ picture img {
     flex-direction: column;
     justify-content: space-evenly;
     max-width: 100%;
-    padding: 1.2rem;
+    padding: 1.4rem;
 }
 
 .product-desc {
@@ -82,7 +82,7 @@ picture img {
 .product-category {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    font-size: 0.65rem;
+    font-size: 0.7rem;
 }
 
 .product-name {
@@ -148,7 +148,7 @@ picture img {
     }
 
     .product-info {
-		padding: 0 1.5rem;
+		padding: 0.4rem 1.5rem;
     }
 
     .product-category, .product-name, .price-info {
