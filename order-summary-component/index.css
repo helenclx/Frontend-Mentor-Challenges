@@ -52,14 +52,14 @@ main {
     max-width: 90%;
 }
 
-.order-container {
+.order-card {
     background: var(--very-pale-blue);
     border-radius: var(--container-border-radius);
     text-align: center;
     box-shadow: 0 0 0.75rem var(--box-shadow-color);
 }
 
-.order-container img {
+.order-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -68,21 +68,21 @@ main {
 	border-radius: var(--container-border-radius) var(--container-border-radius) 0 0;
 }
 
-.order-section {
+.order-card__info-section {
     padding: 0.3rem 2rem 1.5rem;
     display: flex;
     flex-direction: column;
 }
 
-.order-summary {
+.order-card__summary {
     padding: 1em;
 }
 
-.order-summary p {
+.order-card__summary p {
     padding: 1rem 0;
 }
 
-.product-info {
+.order-card__product-info {
     text-align: left;
     display: inline-flex;
     align-items: center;
@@ -91,27 +91,27 @@ main {
     border-radius: 0.8rem;
 }
 
-.product-info img {
+.order-card__product-info img {
     width: 3rem;
     height: auto;
 }
 
-.product-info a:hover {
+.order-card__product-info a:hover {
     text-decoration: none;
     color: var(--desaturated-blue);
 }
 
-.product-price {
+.order-card__product-price {
     padding-left: 0.5rem;
     margin-right: auto;
 }
 
-.cta-section {
+.order-card__cta-section {
     display: flex;
     flex-direction: column;
 }
 
-.payment-btn {
+.order-card__payment-btn {
     border: none;
     color: var(--very-pale-blue);
     background: var(--bright-blue);
@@ -122,16 +122,16 @@ main {
     box-shadow: 0 0.5rem 1rem var(--box-shadow-color);
 }
 
-.payment-btn:hover {
+.order-card__payment-btn:hover {
     background: hsla(245, 75%, 52%, 0.7);
 }
 
-.cta-section a {
+.order-card__cta-section a {
     color: var(--desaturated-blue);
     text-decoration: none;
 }
 
-.cta-section a:hover{
+.order-card__cta-section a:hover{
     color: var(--dark-blue);
 }
 
@@ -154,11 +154,11 @@ main {
         background-image: url(./images/pattern-background-desktop.svg);
     }
 
-    .order-container {
+    .order-card {
         max-width: 25rem;
     }
 
-    .order-section {
+    .order-card__info-section {
         padding: 1.5rem 2.5rem;
     }
 }

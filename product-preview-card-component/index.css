@@ -40,7 +40,7 @@ main {
     max-width: 90%;
 }
 
-.product-container {
+.product-card {
     background: var(--white);
     border-radius: var(--container-border-radius);
 	box-shadow: 0 0 0.75rem hsl(0, 0%, 88%);
@@ -61,7 +61,7 @@ picture img {
     object-position: center;
 }
 
-.product-info {
+.product-card__info {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -69,43 +69,43 @@ picture img {
     padding: 1.4rem;
 }
 
-.product-desc {
+.product-card__desc {
     line-height: 1.1rem;
     font-size: 0.7rem;
 	padding-bottom: 0.9rem;
 }
 
-.product-category, .product-name, .price-info {
+.product-card__category, .product-card__name, .product-card__price-info {
         padding-bottom: 0.6rem;
 }
 
-.product-category {
+.product-card__category {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     font-size: 0.7rem;
 }
 
-.product-name {
+.product-card__name {
     color: var(--very-dark-blue);
     line-height: 1.8rem;
 }
 
-.price-info {
+.product-card__price-info {
     display: inline-flex;
     align-items: center;
 }
 
-.new-price {
+.product-card__new-price {
     color: var(--dark-cyan);
 }
 
-.og-price {
+.product-card__og-price {
     text-decoration: line-through;
     padding-left: 1rem;
     font-size: 0.7rem;
 }
 
-.add-cart-btn {
+.product-card__cart-btn {
     border: none;
     border-radius: 0.5rem;
     background: var(--dark-cyan);
@@ -117,11 +117,11 @@ picture img {
     width: 100%;
 }
 
-.add-cart-btn img {
+.product-card__cart-btn img {
     padding-right: 0.5rem;
 }
 
-.add-cart-btn:hover, .add-cart-btn:focus {
+.product-card__cart-btn:hover, .product-card__cart-btn:focus {
     background: var(--very-dark-blue);
     cursor: pointer;
 }
@@ -137,7 +137,7 @@ picture img {
 }
 
 @media only screen and (min-width: 480px) {
-    .product-container {
+    .product-card {
         max-width: 30rem;
         grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr;
@@ -147,15 +147,15 @@ picture img {
         border-radius: var(--container-border-radius) 0 0 var(--container-border-radius);
     }
 
-    .product-info {
+    .product-card__info {
 		padding: 0.4rem 1.5rem;
     }
 
-    .product-category, .product-name, .price-info {
+    .product-card__category, .product-card__name, .product-card__price-info {
         padding-bottom: 0;
     }
 
-    .product-desc {
+    .product-card__desc {
         padding-bottom: 0;
     }
     
