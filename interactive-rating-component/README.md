@@ -71,8 +71,8 @@ I aim to practice making my web pages accessible and my JavaScript skills more t
 ### Useful resources
 
 - [Pure CSS Custom Styled Radio Buttons](https://moderncss.dev/pure-css-custom-styled-radio-buttons/) by Stephanie Eckles - This is a good guide for creating custom, accessible, cross-browser, theme-able, scalable radio buttons in pure CSS
-- [aria-live](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-live) by MDN Web Docs
-- [:focus-visible](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible) by MDN Web Docs
+- [aria-live - Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-live) by MDN Web Docs
+- [:focus-visible - CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible) by MDN Web Docs
 - [Accessible hiding and aria-hidden example](https://a11y-guidelines.orange.com/en/articles/accessible-hiding/) - I used the accessible hiding method from this article to visually hide the legend element of the form, while still enable the element to be read by screen readers
 - [HTML DOM Document addEventListener()](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) by W3Schools
 - [HTMLElement: change event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) by MDN Web Docs
