@@ -76,7 +76,7 @@ picture img {
 }
 
 .product-card__category, .product-card__name, .product-card__price-info {
-        padding-bottom: 0.6rem;
+    padding-bottom: 0.6rem;
 }
 
 .product-card__category {
