@@ -34,7 +34,7 @@ Mobile:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-stats-preview-card-using-css-grid-and-flexbox-WBtIASipyN
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/stats-preview-card-component/
 
 ## My process
