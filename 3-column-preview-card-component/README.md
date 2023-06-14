@@ -35,7 +35,7 @@ Mobile:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-with-css-grid-and-flexbox-kdwbHs_RbX
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/3-column-preview-card-component/
 
 ## My process
