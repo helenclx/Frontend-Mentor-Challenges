@@ -170,7 +170,6 @@ picture img {
 }
 
 .product-card__og-price {
-    text-decoration: line-through;
     padding-left: 1rem;
     font-size: 0.7rem;
 }
