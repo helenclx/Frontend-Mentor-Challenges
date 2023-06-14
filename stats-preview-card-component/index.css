@@ -98,7 +98,7 @@ body {
     margin: 1.2rem 0;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 700;
     color: var(--white);
@@ -106,19 +106,6 @@ h1, h2 {
 
 h1 {
     padding-bottom: 1.3rem;
-}
-
-h2 {
-    padding-bottom: 0.3rem;
-    font-size: 1.5rem;
-}
-
-h3 {
-    color: var(--stat-heading-white);
-    text-transform: uppercase;
-    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 0.8rem;
 }
 
 p {
@@ -169,15 +156,31 @@ picture img {
 }
 
 .stats-card__intro {
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 .stats-card__statistics {
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+}
+
+.stats-card__statistics p {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
+.stats-card__statistics span {
+    color: var(--stat-heading-white);
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
 }
 
 /* Attribution */
@@ -214,8 +217,12 @@ picture img {
     }
 
     .stats-card__box {
-        padding: 4rem;
+        padding: 3.5rem 4rem;
         order: 1;
+    }
+
+    .stats-card__intro {
+        padding-bottom: 2rem;
     }
 
     .stats-card__statistics {

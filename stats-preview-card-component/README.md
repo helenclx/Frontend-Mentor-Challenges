@@ -14,7 +14,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-<!-- - [Acknowledgments](#acknowledgments) -->
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -67,6 +67,6 @@ I could consider using CSS filters in my web design.
 - Website - [Helen Chong](https://helenclx.github.io/)
 - Frontend Mentor - [@helenclx](https://www.frontendmentor.io/profile/helenclx)
 
-<!-- ## Acknowledgments
+## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit. -->
+- [Thewatcher13](https://www.frontendmentor.io/profile/Thewatcher13) for offering the suggestion to use an unordered list element for the stats
