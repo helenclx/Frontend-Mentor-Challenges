@@ -160,6 +160,7 @@ picture img {
 }
 
 .stats-card__statistics {
+    list-style: none;
     padding: 0;
     display: flex;
     flex-direction: column;
