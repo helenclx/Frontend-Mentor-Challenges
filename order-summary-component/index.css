@@ -175,9 +175,17 @@ main {
     margin-right: auto;
 }
 
+.order-card__product-category {
+    font-weight: 700;
+}
+
 .order-card__cta-section {
     display: flex;
     flex-direction: column;
+}
+
+.order-card__cta-section a {
+    font-weight: 700;
 }
 
 .order-card__payment-btn {
