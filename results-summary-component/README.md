@@ -76,3 +76,4 @@ I aim to refine my techniques in positioning items on a web page by using CSS gr
 
 - [Arif Faisal](https://www.frontendmentor.io/profile/arifaisal123) for providing feedback regarding the mobile layout, which helped me in rewriting CSS with mobile-first workflow.
 - [Abdul Khalid](https://www.frontendmentor.io/profile/0xAbdulKhalid) for providing feedback regarding the lack of need of an `alt` attribute to decorative SVGs.
+- [Thewatcher13](https://www.frontendmentor.io/profile/Thewatcher13) for offering the suggestion to use an unordered list element for the summary.
