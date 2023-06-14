@@ -257,7 +257,7 @@ input[name="rating"]:focus-visible + label,
     color: hsl(228, 98%, 76%);
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 30rem) {
     .card {
         max-width: 25rem;
     }

@@ -218,7 +218,7 @@ main {
 
 /* Desktop view */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 30rem) {
     body {
         background-image: url(./images/pattern-background-desktop.svg);
     }

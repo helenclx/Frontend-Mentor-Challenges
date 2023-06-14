@@ -252,7 +252,7 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 30rem) {
     body {
         display: flex;
         justify-content: center;
