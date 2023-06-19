@@ -32,7 +32,7 @@ Mobile:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-profile-card-component-using-flexbox-8EN3jyK-GM
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/profile-card-component/
 
 ## My process
