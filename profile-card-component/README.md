@@ -56,7 +56,7 @@ I aim to refine my techniques in positioning items on a web page by using Flexbo
 
 ### Useful resources
 
-- [Using multiple backgrounds](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds) by MDN Web Docs
+- [Using multiple backgrounds - CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds) by MDN Web Docs
 - [CSS Basics: Using Multiple Backgrounds](https://css-tricks.com/css-basics-using-multiple-backgrounds/) by Chris Coyier
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by Chris Coyier
 - [CSS Flexbox Tutorial with Flexbox Properties Cheat Sheet](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) by Joy Shaheb
