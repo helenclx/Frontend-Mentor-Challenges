@@ -137,6 +137,7 @@ main {
     border-radius: 1rem;
     margin: 7.5rem 0 0 0;
     position: relative;
+    box-shadow: 0 2rem 2rem hsla(238, 29%, 16%, 0.3);
 }
 
 .faq-card__entry {
