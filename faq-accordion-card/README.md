@@ -61,7 +61,7 @@ Sample HTML:
 </details>
 ```
 
-The most challenging part of this challenge is positioning the images. After a lot of research, I settled for creating a pseudo-element with the `::before` selector in CSS, setting the images as background images, and then using multiple CSS properties to position the images.
+The most challenging part of this challenge is positioning the images. After a lot of research, I settled for creating a pseudo-element with the `::before` selector in CSS.
 
 I got to practice using CSS's `transform` property to rotate an image, by making the arrow image rotate 180 degrees when opening a question's answer, and the `animation` property to animate the content of the accordion when it is opened.
 

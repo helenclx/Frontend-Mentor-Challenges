@@ -111,14 +111,18 @@ hr {
 
 main {
     width: 90%;
-    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.faq-card__box-img {
+    display: none;
+}
+
 .faq-card::before {
+    display: block;
     content: "";
     background-image: url(./images/illustration-woman-online-mobile.svg), url(./images/bg-pattern-mobile.svg);
     background-repeat: no-repeat;
@@ -228,23 +232,26 @@ main {
 
     main {
         flex-direction: row;
-        max-width: 63rem;
+        max-width: 60rem;
     }
 
     .faq-card::before {
-        background-image: url(./images/illustration-box-desktop.svg), url(./images/illustration-woman-online-desktop.svg), url(./images/bg-pattern-desktop.svg);
-        background-repeat: no-repeat;
-        background-position: -0.7rem 50%, center top, center bottom;
-        background-size: 10rem, 30rem, 30rem;
-        width: 33rem;
-        height: 28rem;
+        background-image: url(./images/illustration-box-desktop.svg);
+        background-size: 13rem auto;
+        width: 8rem;
+        height: 8rem;
         left: -6.5%;
-        top: 11%;
+        top: 38%;
         transform: none;
+        z-index: 3;
     }
     
     .faq-card {
         padding: 4rem 6rem 5rem 33rem;
         margin: 0 0 0 0;
+        background-image: url(./images/illustration-woman-online-desktop.svg), url(./images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: -15% center;
+        background-size: 30rem auto;
     }
 }
