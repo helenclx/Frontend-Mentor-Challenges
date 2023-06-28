@@ -241,9 +241,8 @@ main {
         width: 8rem;
         height: 8rem;
         left: -6.5%;
-        top: 38%;
-        transform: none;
-        z-index: 3;
+        top: 50%;
+        transform: translateY(-50%);
     }
     
     .faq-card {
