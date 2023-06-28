@@ -36,7 +36,7 @@ Mobile:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/faq-accordion-card-without-javascript-42vn9Q9lsO
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/faq-accordion-card/
 
 ## My process
@@ -46,7 +46,7 @@ Mobile:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- CSS pseudo element
 - Mobile-first workflow
 
 ### What I learned

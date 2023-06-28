@@ -27,6 +27,8 @@ My Frontend Mentor profile: https://www.frontendmentor.io/profile/helenclx
 | Stats preview card component | 1 - Newbie | [Link](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-using-css-grid-and-flexbox-WBtIASipyN) | [Link](https://helenclx.github.io/Frontend-Mentor-Challenges/stats-preview-card-component/) | [Link](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/stats-preview-card-component) |
 | 3-column preview card component | 1 - Newbie | [Link](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-with-css-grid-and-flexbox-kdwbHs_RbX) | [Link](https://helenclx.github.io/Frontend-Mentor-Challenges/3-column-preview-card-component/) | [Link](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/3-column-preview-card-component/) |
 | Profile card component | 1 - Newbie | [Link](https://www.frontendmentor.io/solutions/responsive-profile-card-component-using-flexbox-8EN3jyK-GM) | [Link](https://helenclx.github.io/Frontend-Mentor-Challenges/profile-card-component/) | [Link](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/profile-card-component/) |
+| FAQ accordion card| 1 - Newbie | [Link](https://www.frontendmentor.io/solutions/faq-accordion-card-without-javascript-42vn9Q9lsO) | [Link](https://helenclx.github.io/Frontend-Mentor-Challenges/faq-accordion-card/) | [Link](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/faq-accordion-card) |
+
 
 ## Useful resources
 
