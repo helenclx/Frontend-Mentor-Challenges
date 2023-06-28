@@ -1,0 +1,249 @@
+:root {
+    /* Primary text */
+    --very-dark-saturated-blue: hsl(238, 29%, 16%);
+    --soft-red: hsl(14, 88%, 65%);
+    /* Primary gradient */
+    --soft-violet: hsl(273, 75%, 66%);
+    --soft-blue: hsl(240, 73%, 65%);
+    /* Neutral text */
+    --very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --dark-grayish-blue: hsl(240, 6%, 50%);
+    /* Dividers */
+    --light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+/* CSS RESET */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* STYLING BEGINS */
+body {
+    background: linear-gradient(var(--soft-violet), var(--soft-blue));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.75rem; /* 12px */
+    font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
+    padding: 1rem 0;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+hr {
+    border: 0.05rem solid var(--light-grayish-blue);
+}
+
+main {
+    width: 90%;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-card::before {
+    content: "";
+    background-image: url(./images/illustration-woman-online-mobile.svg), url(./images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center top, center bottom;
+    width: 16rem;
+    height: 14.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -113%);
+}
+
+.faq-card {
+    width: 100%;
+    background: white;
+    padding: 9rem 1.5rem 3rem 1.5rem;
+    border-radius: 1rem;
+    margin: 7.5rem 0 0 0;
+    position: relative;
+}
+
+.faq-card__entry {
+    width: 100%;
+}
+
+.faq-card__entry img {
+    height: 0.5rem;
+}
+
+.faq-card__entry[open] img {
+    transform: rotate(180deg);
+    transition: 0.5s ease;
+}
+
+.faq-card__entry[open] .faq-card__question {
+    font-weight: 700;
+}
+
+.faq-card__entry[open] .faq-card__answer {
+    animation: openDown 0.2s linear forwards;
+}
+
+@keyframes openDown {
+    0% {
+        opacity: 0;
+        transform: translatey(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
+
+.faq-card__trigger,
+.faq-card__answer {
+    padding: 0.5rem 0.3rem;
+}
+
+.faq-card__trigger {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.faq-card__trigger:hover {
+    color: var(--soft-red);
+}
+
+.faq-card__trigger::-webkit-details-marker {
+    display: none;
+}
+
+.faq-card__trigger:focus-visible {
+    outline: 0.2rem solid var(--dark-grayish-blue);
+}
+
+.faq-card__trigger:focus {
+    outline: none;    
+}
+
+.faq-card__answer {
+    transition: all 0.25s ease-in-out;
+}
+
+/* Attribution */
+.attribution {
+    font-size: 0.6875rem; /* 11px */
+    text-align: center;
+    padding-top: 0.5rem;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(56, 100%, 63%);
+}
+
+/* Desktop screen size */
+@media only screen and (min-width: 60rem) {
+    h1 {
+        text-align: left;
+        padding-bottom: 1.5rem;
+    }
+
+    main {
+        flex-direction: row;
+        max-width: 63rem;
+    }
+
+    .faq-card::before {
+        background-image: url(./images/illustration-box-desktop.svg), url(./images/illustration-woman-online-desktop.svg), url(./images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: -0.7rem 50%, center top, center bottom;
+        background-size: 10rem, 30rem, 30rem;
+        width: 33rem;
+        height: 28rem;
+        left: -6.5%;
+        top: 11%;
+        transform: none;
+    }
+    
+    .faq-card {
+        padding: 4rem 6rem 5rem 33rem;
+        margin: 0 0 0 0;
+    }
+}
