@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Franklin:wght@300;600;700&display=swap">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
+        <script src="./index.js" defer></script>
+        
+        <title>Ping coming soon page | Frontend Mentor challenge</title>
+    </head>
+    <body>
+        <header>
+            <img src="./images/logo.svg" alt="Ping logo">
+        </header>
+        <main>
+            <h1>We are launching <strong>soon!</strong></h1>
+
+            <p>Subscribe and get notified</p>
+
+            <form class="subscription-form" name="subscription-form">
+                <fieldset class="subscription-form_input-field" aria-label="Subscription form">
+                    <legend class="sr-only">Please enter your email address:</legend>
+                    <label for="email-input" aria-label="Enter your email address">
+                        <input type="email" name="email-subscription" id="email-input" placeholder="Your email address" class="subscription-form__email" required>
+                    </label>
+                    <p class="subscription-form__error no-email hidden" aria-live="assertive">
+                        <em>Whoops! It looks like you forgot to add your email.</em>
+                    </p>
+                    <p class="subscription-form__error invalid-email hidden" aria-live="assertive">
+                        <em>Please provide a valid email address.</em>
+                    </p>
+                </fieldset>
+
+                <button type="submit" class="subscription-form__button">Notify Me</button>
+            </form>
+
+            <img src="./images/illustration-dashboard.png" alt="">
+        </main>
+        <footer>
+            <div class="socials-wrapper" aria-label="Social media links">
+                <a href="#" class="socials-wrapper__link" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="socials-wrapper__link" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="socials-wrapper__link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p class="footer__copyright">&copy; Copyright Ping. All rights reserved.</p>
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="https://helenclx.github.io/" target="_blank">Helen Chong</a>.
+            </div>
+        </footer>
+    </body>
+</html>
