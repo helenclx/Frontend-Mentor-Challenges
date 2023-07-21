@@ -39,7 +39,7 @@ Mobile:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-ping-coming-soon-page-with-vanilla-javascript-y6sfGWPXFH
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/ping-coming-soon-page/
 
 ## My process
