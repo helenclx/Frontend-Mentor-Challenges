@@ -1,14 +1,14 @@
 :root {
     /* Primary color */
-    --pale-blue: hsl(225, 100%, 94%);
-    --bright-blue: hsl(245, 75%, 52%);
+    --clr-pale-blue: hsl(225, 100%, 94%);
+    --clr-bright-blue: hsl(245, 75%, 52%);
     /* Neutral */
-    --very-pale-blue: hsl(225, 100%, 98%);
-    --desaturated-blue: hsla(224, 23%, 55%);
-    --dark-blue: hsl(223, 47%, 23%);
+    --clr-very-pale-blue: hsl(225, 100%, 98%);
+    --clr-desaturated-blue: hsla(224, 23%, 55%);
+    --clr-dark-blue: hsl(223, 47%, 23%);
 
-    --container-border-radius: 1rem;
-    --box-shadow-color: hsla(245, 75%, 52%, 0.3);
+    --br-container: 1rem;
+    --clr-box-shadow: hsla(245, 75%, 52%, 0.3);
 }
 
 /* CSS RESET */
@@ -95,7 +95,7 @@ select {
     font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
     font-size: 1rem; /* 16px */
     background-image: url(./images/pattern-background-mobile.svg);
-    background-color: var(--pale-blue);
+    background-color: var(--clr-pale-blue);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -122,10 +122,10 @@ main {
 }
 
 .order-card {
-    background: var(--very-pale-blue);
-    border-radius: var(--container-border-radius);
+    background: var(--clr-very-pale-blue);
+    border-radius: var(--br-container);
     text-align: center;
-    box-shadow: 0 0 0.75rem var(--box-shadow-color);
+    box-shadow: 0 0 0.75rem var(--clr-box-shadow);
 }
 
 .order-card img {
@@ -134,7 +134,7 @@ main {
     object-fit: cover;
     object-position: center;
     overflow: hidden;
-	border-radius: var(--container-border-radius) var(--container-border-radius) 0 0;
+	border-radius: var(--br-container) var(--br-container) 0 0;
 }
 
 .order-card__info-section {
@@ -156,7 +156,7 @@ main {
     display: inline-flex;
     align-items: center;
     padding: 1rem;
-    background: var(--very-pale-blue);
+    background: var(--clr-very-pale-blue);
     border-radius: 0.8rem;
 }
 
@@ -167,7 +167,7 @@ main {
 
 .order-card__product-info a:hover {
     text-decoration: none;
-    color: var(--desaturated-blue);
+    color: var(--clr-desaturated-blue);
 }
 
 .order-card__product-price {
@@ -190,13 +190,13 @@ main {
 
 .order-card__payment-btn {
     border: none;
-    color: var(--very-pale-blue);
-    background: var(--bright-blue);
+    color: var(--clr-very-pale-blue);
+    background: var(--clr-bright-blue);
     padding: 0.8rem;
     border-radius: 0.5rem;
     font-weight: bold;
     margin: 1.5rem 0;
-    box-shadow: 0 0.5rem 1rem var(--box-shadow-color);
+    box-shadow: 0 0.5rem 1rem var(--clr-box-shadow);
 }
 
 .order-card__payment-btn:hover {
@@ -204,12 +204,12 @@ main {
 }
 
 .order-card__cta-section a {
-    color: var(--desaturated-blue);
+    color: var(--clr-desaturated-blue);
     text-decoration: none;
 }
 
 .order-card__cta-section a:hover{
-    color: var(--dark-blue);
+    color: var(--clr-dark-blue);
 }
 
 /* Attribution */

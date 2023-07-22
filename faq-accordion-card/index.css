@@ -1,15 +1,15 @@
 :root {
     /* Primary text */
-    --very-dark-saturated-blue: hsl(238, 29%, 16%);
-    --soft-red: hsl(14, 88%, 65%);
+    --clr-very-dark-saturated-blue: hsl(238, 29%, 16%);
+    --clr-soft-red: hsl(14, 88%, 65%);
     /* Primary gradient */
-    --soft-violet: hsl(273, 75%, 66%);
-    --soft-blue: hsl(240, 73%, 65%);
+    --clr-soft-violet: hsl(273, 75%, 66%);
+    --clr-soft-blue: hsl(240, 73%, 65%);
     /* Neutral text */
-    --very-dark-grayish-blue: hsl(237, 12%, 33%);
-    --dark-grayish-blue: hsl(240, 6%, 50%);
+    --clr-very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --clr-dark-grayish-blue: hsl(240, 6%, 50%);
     /* Dividers */
-    --light-grayish-blue: hsl(240, 5%, 91%);
+    --clr-light-grayish-blue: hsl(240, 5%, 91%);
 }
 
 /* CSS RESET */
@@ -90,7 +90,7 @@ select {
 
 /* STYLING BEGINS */
 body {
-    background: linear-gradient(var(--soft-violet), var(--soft-blue));
+    background: linear-gradient(var(--clr-soft-violet), var(--clr-soft-blue));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,7 @@ h1 {
 }
 
 hr {
-    border: 0.05rem solid var(--light-grayish-blue);
+    border: 0.05rem solid var(--clr-light-grayish-blue);
 }
 
 main {
@@ -192,7 +192,7 @@ main {
 }
 
 .faq-card__trigger:hover {
-    color: var(--soft-red);
+    color: var(--clr-soft-red);
 }
 
 .faq-card__trigger::-webkit-details-marker {
@@ -200,7 +200,7 @@ main {
 }
 
 .faq-card__trigger:focus-visible {
-    outline: 0.2rem solid var(--dark-grayish-blue);
+    outline: 0.2rem solid var(--clr-dark-grayish-blue);
 }
 
 .faq-card__trigger:focus {

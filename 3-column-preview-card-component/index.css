@@ -1,11 +1,11 @@
 :root {
     /* Primary */
-    --bright-orange: hsl(31, 77%, 52%);
-    --dark-cyan: hsl(184, 100%, 22%);
-    --very-dark-cyan: hsl(179, 100%, 13%);
+    --clr-bright-orange: hsl(31, 77%, 52%);
+    --clr-dark-cyan: hsl(184, 100%, 22%);
+    --clr-very-dark-cyan: hsl(179, 100%, 13%);
     /* Neutral */
-    --transparent-white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
-    --very-light-gray: hsl(0, 0%, 95%); /* background, headings, buttons */
+    --clr-transparent-white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+    --clr-very-light-gray: hsl(0, 0%, 95%); /* background, headings, buttons */
 
     --card-border-radius: 0.6rem;
 }
@@ -94,14 +94,14 @@ body {
     flex-direction: column;
     font-size: 0.9375rem; /* 15px */
     font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
-    background: var(--very-light-gray);
+    background: var(--clr-very-light-gray);
     margin: 1.5rem 0;
 }
 
 h2 {
     font-family: 'Big Shoulders Display', Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
-    color: var(--very-light-gray);
+    color: var(--clr-very-light-gray);
     text-transform: uppercase;
     letter-spacing: 0.07rem;
     margin: 2rem 0;
@@ -136,7 +136,7 @@ main {
 
 .card {
     padding: 2.5rem;
-    color: var(--transparent-white);
+    color: var(--clr-transparent-white);
 }
 
 .card p {
@@ -149,8 +149,8 @@ main {
 
 .card__learn-more {
     display: inline-block;
-    border: 0.1rem solid var(--very-light-gray);
-    background: var(--very-light-gray);
+    border: 0.1rem solid var(--clr-very-light-gray);
+    background: var(--clr-very-light-gray);
     padding: 0.5rem 1.5rem;
     border-radius: 20rem;
 }
@@ -164,38 +164,38 @@ main {
 .card__learn-more:hover {
     cursor: pointer;
     background: inherit;
-    color: var(--very-light-gray) !important;
+    color: var(--clr-very-light-gray) !important;
 }
 
 .card__learn-more:focus-visible {
-    outline: 0.2rem solid var(--very-light-gray);
+    outline: 0.2rem solid var(--clr-very-light-gray);
     outline-offset: 0.2rem;
 }
 
 .card--sedan {
-    background: var(--bright-orange);
+    background: var(--clr-bright-orange);
     border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
 }
 
 .card--sedan a {
-    color: var(--bright-orange);
+    color: var(--clr-bright-orange);
 }
 
 .card--suv {
-    background: var(--dark-cyan);
+    background: var(--clr-dark-cyan);
 }
 
 .card--suv a {
-    color: var(--dark-cyan);
+    color: var(--clr-dark-cyan);
 }
 
 .card--luxury {
-    background: var(--very-dark-cyan);
+    background: var(--clr-very-dark-cyan);
     border-radius: 0 0 var(--card-border-radius) var(--card-border-radius);
 }
 
 .card--luxury a {
-    color: var(--very-dark-cyan);
+    color: var(--clr-very-dark-cyan);
 }
 
 /* Attribution */

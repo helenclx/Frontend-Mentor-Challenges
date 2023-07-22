@@ -1,12 +1,12 @@
 :root {
     /* Primary */
-    --blue: hsl(223, 87%, 63%);
+    --clr-blue: hsl(223, 87%, 63%);
     /* Secondary */
-    --pale-blue: hsl(223, 100%, 88%);
-    --light-red: hsl(354, 100%, 66%);
+    --clr-pale-blue: hsl(223, 100%, 88%);
+    --clr-light-red: hsl(354, 100%, 66%);
     /* Neutral */
-    --gray: hsl(0, 0%, 59%);
-    --very-dark-blue: hsl(209, 33%, 12%);
+    --clr-gray: hsl(0, 0%, 59%);
+    --clr-very-dark-blue: hsl(209, 33%, 12%);
 }
 
 /* CSS RESET */
@@ -94,7 +94,7 @@ body {
     padding-top: 2.5rem;
     font-size: 1.25rem;
     font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
-    color: var(--very-dark-blue);
+    color: var(--clr-very-dark-blue);
 }
 
 h1 {
@@ -156,27 +156,27 @@ footer {
 }
 
 .subscription-form__email:focus {
-    border: 0.1rem solid var(--light-red);
-    outline: 0.1rem solid var(--light-red);
+    border: 0.1rem solid var(--clr-light-red);
+    outline: 0.1rem solid var(--clr-light-red);
 }
 
 .subscription-form__error {
-    color: var(--light-red);
+    color: var(--clr-light-red);
     font-size: 1rem;
     padding-bottom: 2rem;
 }
 
 .subscription-form__button {
     border: none;
-    background: var(--blue);
+    background: var(--clr-blue);
     color: white;
     cursor: pointer;
-    box-shadow: 0 0.5rem 0.5rem var(--pale-blue);
+    box-shadow: 0 0.5rem 0.5rem var(--clr-pale-blue);
 }
 
 .subscription-form__button:focus,
 .socials-wrapper__link:focus {
-    outline: 0.2rem solid var(--blue);
+    outline: 0.2rem solid var(--clr-blue);
 }
 
 .subscription-form__button:focus {
@@ -206,24 +206,24 @@ footer {
 
 .socials-wrapper__link {
     text-decoration: none;
-    color: var(--blue);
+    color: var(--clr-blue);
     font-size: 2rem;
     width: 4rem;
     aspect-ratio: 1/1;
     display: grid;
     place-items: center;
-    border: 0.05rem solid var(--blue);
+    border: 0.05rem solid var(--clr-blue);
     border-radius: 50%;
 }
 
 .socials-wrapper__link:hover {
     color: white;
-    background: var(--blue);
+    background: var(--clr-blue);
     transition: 0.3s;
 }
 
 .footer__copyright {
-    color: var(--gray);
+    color: var(--clr-gray);
 }
 
 .attribution {

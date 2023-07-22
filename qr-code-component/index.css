@@ -1,8 +1,8 @@
 :root {
-    --white: hsl(0, 0%, 100%);
-    --light-gray: hsl(212, 45%, 89%);
-    --grayish-blue: hsl(220, 15%, 55%);
-    --dark-blue: hsl(218, 44%, 22%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-gray: hsl(212, 45%, 89%);
+    --clr-grayish-blue: hsl(220, 15%, 55%);
+    --clr-dark-blue: hsl(218, 44%, 22%);
 }
 
 /* CSS RESET */
@@ -85,7 +85,7 @@ select {
 body {
     font-family: 'Outfit', sans-serif;
     font-weight: 400 700;
-    background: var(--light-gray);
+    background: var(--clr-light-gray);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +93,7 @@ body {
 }
 
 h1 {
-    color: var(--dark-blue);
+    color: var(--clr-dark-blue);
     font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
@@ -104,13 +104,13 @@ h1 {
 
 p {
     font-size: 15px;
-    color: var(--grayish-blue);
+    color: var(--clr-grayish-blue);
     text-align: center;
     margin: 0.75rem;
 }
 
 .qr-container {
-    background: var(--white);
+    background: var(--clr-white);
     max-width: 19rem;
     padding: 1rem;
     margin: 0 auto;

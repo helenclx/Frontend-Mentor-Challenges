@@ -1,11 +1,12 @@
 :root {
-    --dark-cyan: hsl(185, 75%, 39%);
-    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
-    --dark-grayish-blue: hsl(227, 10%, 46%);
-
-    --dark-gray: hsl(0, 0%, 59%);
-
-    --card-border-radius: 1rem;
+    /* Primary colors */
+    --clr-dark-cyan: hsl(185, 75%, 39%);
+    --clr-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --clr-dark-grayish-blue: hsl(227, 10%, 46%);
+    /* Neutral color */
+    --clr-dark-gray: hsl(0, 0%, 59%);
+    /* Border radius */
+    --br-card: 1rem;
 }
 
 /* CSS RESET */
@@ -92,7 +93,7 @@ body {
     flex-direction: column;
     font-size: 1.125rem; /* 18px */
     font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
-    background-color: var(--dark-cyan);
+    background-color: var(--clr-dark-cyan);
     background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-position: right 50vw bottom 50vh, left 50vw top 50vh;
     background-repeat: no-repeat;
@@ -116,7 +117,7 @@ main {
 
 .profile-card {
     background: white;
-    border-radius: var(--card-border-radius);
+    border-radius: var(--br-card);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -127,7 +128,7 @@ main {
 .profile-card__top {
     position: relative;
     overflow: hidden;
-	border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
+	border-radius: var(--br-card) var(--br-card) 0 0;
     z-index: 1;
 }
 
@@ -160,13 +161,13 @@ main {
 
 .profile-card__about h2 {
     font-size: 1.125rem;
-    color: var(--very-dark-desaturated-blue);
+    color: var(--clr-very-dark-desaturated-blue);
     padding-bottom: 0.3rem;
 }
 
 .profile-card__age,
 .profile-card__location {
-    color: var(--dark-gray);
+    color: var(--clr-dark-gray);
 }
 
 .profile-card__age {
@@ -175,11 +176,11 @@ main {
 
 .profile-card__location {
     font-size: 1rem;
-    color: var(--dark-grayish-blue);
+    color: var(--clr-dark-grayish-blue);
 }
 
 hr {
-    border: 0.001rem solid var(--dark-cyan);
+    border: 0.001rem solid var(--clr-dark-cyan);
     opacity: 25%;
 }
 
@@ -194,11 +195,11 @@ hr {
 .profile-card__stats p {
     font-weight: 700;
     line-height: 1;
-    color: var(--very-dark-desaturated-blue);
+    color: var(--clr-very-dark-desaturated-blue);
 }
 
 .profile-card__stats span {
-    color: var(--dark-gray);
+    color: var(--clr-dark-gray);
     font-size: 0.75rem;
     letter-spacing: 0.1em;
 }

@@ -1,10 +1,10 @@
 :root {
-    --orange: hsl(25, 97%, 53%);
-    --white: hsl(0, 0%, 100%);
-    --light-grey: hsl(217, 12%, 63%);
-    --medium-grey: hsla(216, 12%, 54%, 0.253);
-    --dark-blue: hsl(213, 19%, 18%);
-    --very-dark-blue: hsl(216, 12%, 8%);
+    --clr-orange: hsl(25, 97%, 53%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-grey: hsl(217, 12%, 63%);
+    --clr-medium-grey: hsla(216, 12%, 54%, 0.253);
+    --clr-dark-blue: hsl(213, 19%, 18%);
+    --clr-very-dark-blue: hsl(216, 12%, 8%);
 }
 
 /* CSS RESET */
@@ -87,8 +87,8 @@ select {
 body {
     font-size: 0.9375rem; /* 15px */
     font-family: 'Overpass', Arial, Helvetica, sans-serif;
-    background: var(--very-dark-blue);
-    color: var(--light-grey);
+    background: var(--clr-very-dark-blue);
+    color: var(--clr-light-grey);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,7 @@ body {
 }
 
 h1, h2 {
-    color: var(--white);
+    color: var(--clr-white);
     font-size: 1.6rem;
 }
 
@@ -131,7 +131,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     padding: 2.3rem;
-    background: var(--dark-blue);
+    background: var(--clr-dark-blue);
     border-radius: 1.5rem;
     height: 25rem;
 }
@@ -139,7 +139,7 @@ main {
 /* Rating card */
 
 .rating-card__img-div {
-    background: var(--medium-grey);
+    background: var(--clr-medium-grey);
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
@@ -169,8 +169,8 @@ input[name="rating"] {
 }
 
 input[name="rating"] + label {
-    background: var(--medium-grey);
-    color: var(--light-grey);
+    background: var(--clr-medium-grey);
+    color: var(--clr-light-grey);
     border-radius: 100%;
     width: 3rem;
     aspect-ratio: 1/1;
@@ -179,13 +179,13 @@ input[name="rating"] + label {
 }
 
 input[name="rating"] + label:hover {
-    background: var(--orange);
-    color: var(--white);
+    background: var(--clr-orange);
+    color: var(--clr-white);
 }
 
 input[name="rating"]:checked + label {
-    background: var(--light-grey);
-    color: var(--white);
+    background: var(--clr-light-grey);
+    color: var(--clr-white);
 }
 
 input[name="rating"]:focus-visible {
@@ -194,15 +194,15 @@ input[name="rating"]:focus-visible {
 
 input[name="rating"]:focus-visible + label,
 .rating-card__submit-btn:focus-visible {
-    outline: 0.2rem solid var(--white);
+    outline: 0.2rem solid var(--clr-white);
 }
 
 .rating-card__submit-btn {
     border: none;
     border-radius: 20rem;
     padding: 0.8rem 0;
-    background: var(--orange);
-    color: var(--white);
+    background: var(--clr-orange);
+    color: var(--clr-white);
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
@@ -210,8 +210,8 @@ input[name="rating"]:focus-visible + label,
 }
 
 .rating-card__submit-btn:hover {
-    background: var(--white);
-    color: var(--orange)
+    background: var(--clr-white);
+    color: var(--clr-orange)
 }
 
 /* Thank you card */
@@ -231,8 +231,8 @@ input[name="rating"]:focus-visible + label,
 .thankyou-card__rating {
     padding: 0.3rem 1rem;
     border-radius: 20rem;
-    background: var(--medium-grey);
-    color: var(--orange);
+    background: var(--clr-medium-grey);
+    color: var(--clr-orange);
 }
 
 /* To show or hide the cards */

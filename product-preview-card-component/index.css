@@ -1,10 +1,13 @@
 :root {
-    --dark-cyan: hsl(158, 36%, 37%);
-    --cream: hsl(30, 38%, 92%);
-    --very-dark-blue: hsl(212, 21%, 14%);
-    --dark-grayish-blue: hsl(228, 12%, 48%);
-    --white: hsl(0, 0%, 100%);
-    --container-border-radius: 0.5rem;
+    /* Primary colors */
+    --clr-dark-cyan: hsl(158, 36%, 37%);
+    --clr-cream: hsl(30, 38%, 92%);
+    /* Neutral colors */
+    --clr-very-dark-blue: hsl(212, 21%, 14%);
+    --clr-dark-grayish-blue: hsl(228, 12%, 48%);
+    --clr-white: hsl(0, 0%, 100%);
+    /* Border radius */
+    --br-container: 0.5rem;
 }
 
 /* CSS RESET */
@@ -88,7 +91,7 @@ body {
     font-size: 0.875rem; /* 14px */
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: 400 700;
-    background: var(--cream);
+    background: var(--clr-cream);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +105,7 @@ h1, h2 {
 }
 
 p {
-    color: var(--dark-grayish-blue);
+    color: var(--clr-dark-grayish-blue);
     font-size: 1rem;
 }
 
@@ -111,8 +114,8 @@ main {
 }
 
 .product-card {
-    background: var(--white);
-    border-radius: var(--container-border-radius);
+    background: var(--clr-white);
+    border-radius: var(--br-container);
 	box-shadow: 0 0 0.75rem hsl(0, 0%, 88%);
     display: grid;
     grid-template-columns: 1fr;
@@ -121,7 +124,7 @@ main {
 
 picture {
     overflow: hidden;
-	border-radius: var(--container-border-radius) var(--container-border-radius) 0 0;
+	border-radius: var(--br-container) var(--br-container) 0 0;
 }
 
 picture img {
@@ -156,7 +159,7 @@ picture img {
 }
 
 .product-card__name {
-    color: var(--very-dark-blue);
+    color: var(--clr-very-dark-blue);
     line-height: 1.15;
 }
 
@@ -166,7 +169,7 @@ picture img {
 }
 
 .product-card__new-price {
-    color: var(--dark-cyan);
+    color: var(--clr-dark-cyan);
 }
 
 .product-card__og-price {
@@ -177,8 +180,8 @@ picture img {
 .product-card__cart-btn {
     border: none;
     border-radius: 0.5rem;
-    background: var(--dark-cyan);
-    color: var(--white);
+    background: var(--clr-dark-cyan);
+    color: var(--clr-white);
     padding: 0.8rem 1.5rem;
     display: flex;
     justify-content: center;
@@ -191,7 +194,7 @@ picture img {
 }
 
 .product-card__cart-btn:hover, .product-card__cart-btn:focus {
-    background: var(--very-dark-blue);
+    background: var(--clr-very-dark-blue);
     cursor: pointer;
 }
 
@@ -213,7 +216,7 @@ picture img {
     }
 
     picture {
-        border-radius: var(--container-border-radius) 0 0 var(--container-border-radius);
+        border-radius: var(--br-container) 0 0 var(--br-container);
     }
 
     .product-card__info {
