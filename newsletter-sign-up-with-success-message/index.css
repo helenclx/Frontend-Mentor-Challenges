@@ -1,0 +1,289 @@
+:root {
+    /* Primary color */
+    --clr-orange: hsl(25, 97%, 53%);
+    /* Neutral colors */
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-grey: hsl(217, 12%, 63%);
+    --clr-medium-grey: hsl(216, 12%, 54%);
+    --clr-dark-blue: hsl(213, 19%, 18%);
+    --clr-very-dark-blue: hsl(216, 12%, 8%);
+    /* Error */
+    --clr-red: hsl(0, 100%, 50%);
+    --clr-light-red: hsl(0, 100%, 95%);
+    /* Box Shadow */
+    --bs-btn-hover: 0 1.5rem 1.5rem hsla(25, 97%, 53%, 0.25);
+}
+
+/* CSS RESET */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* STYLING BEGINS */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.9375rem; /* 15px */
+    font-family: 'Overpass', Arial, Helvetica, sans-serif;
+    background: var(--clr-very-dark-blue);
+}
+
+h1,
+h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+input,
+button {
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+input {
+    border: 0.1rem solid var(--clr-medium-grey);
+}
+
+button {
+    background: var(--clr-very-dark-blue);
+    color: var(--clr-white);
+    font-weight: 700;
+    border: none;
+}
+
+button:hover {
+    background: var(--clr-orange);
+    cursor: pointer;
+    box-shadow: var(--bs-btn-hover);
+}
+
+button:focus {
+    outline: 0.2rem solid var(--clr-very-dark-blue);
+    outline-offset: 0.15rem;
+}
+
+/* GENERAL CARD STYLING */
+.card {
+    display: grid;
+    background: var(--clr-white);
+    border-radius: 1.5rem;
+}
+
+/* NEWSLETTER CARD */
+.newslet {
+    grid-template-columns: 1fr;
+}
+
+.newslet__signup,
+.success {
+    padding: 2rem 1.5rem;
+}
+
+.newslet__signup {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.newslet__features {
+    display: grid;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.newslet__features li {
+    padding-left: 2rem;
+    background-image: url(./assets/images/icon-list.svg);
+    background-position: 0 0;
+    background-size: 1.2rem;
+    background-repeat: no-repeat;
+}
+
+.newslet__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.newslet__form--label-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newslet__form--label {
+    font-weight: 700;
+}
+
+.newslet__form--input {
+    border: 0.1rem solid var(--clr-very-dark-blue);
+    margin-top: 0.3rem;
+}
+
+.newslet__form--input::placeholder {
+    color: var(--clr-medium-grey);
+}
+
+.newslet__form--input:focus {
+    outline: 0.1rem solid var(--clr-very-dark-blue);
+}
+
+.invalid-input:focus {
+    border: 0.1rem solid var(--clr-red);
+    outline: 0.1rem solid var(--clr-red);
+    background: var(--clr-light-red);
+}
+
+.invalid-input::placeholder {
+    color: var(--clr-red);
+}
+
+.invalid-email {
+    color: var(--clr-red);
+}
+
+.newslet__form--submit-btn {
+    margin-top: 1.75rem;
+}
+
+/* SUCCESS CARD */
+.success {
+    min-height: 100vh;
+}
+
+.success__msg {
+    align-self: center;
+    display: grid;
+    gap: 1.75rem;
+}
+
+.success__dismiss-btn {
+    align-self: self-end;
+}
+
+/* Hide elements */
+.hidden {
+    display: none;
+}
+
+/* Attribution */
+.attribution {
+    font-size: 0.6875rem; /* 11px */
+    text-align: center;
+    padding-top: 0.5rem;
+    color: var(--clr-light-grey);
+}
+
+.attribution a {
+    color: var(--clr-orange);
+}
+
+/* Tablet screen size */
+@media only screen and (min-width: 43.75rem) {
+    h1,
+    h2 {
+        font-size: 3rem;
+    }
+
+    .card {
+        max-width: 55rem;
+        padding: 1.25rem;
+    }
+
+    .newslet {
+        grid-template-columns: 1fr auto;
+	    grid-template-rows: 1fr;
+        padding-left: 0;
+    }
+
+    picture {
+        order: 2;
+    }
+
+    .newslet__signup {
+        padding: 4rem 2.5rem;
+        order: 1;
+        gap: 0;
+    }
+
+    .success {
+        max-width: 27rem;
+        padding: 3.25rem;
+        min-height: 100%;
+        gap: 2.5rem;
+    }
+}
