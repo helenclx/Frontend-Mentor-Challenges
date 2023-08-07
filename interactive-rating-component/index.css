@@ -217,7 +217,7 @@ input[name="rating"]:focus-visible + label,
 /* Thank you card */
 
 .thankyou-card {
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -235,12 +235,7 @@ input[name="rating"]:focus-visible + label,
     color: var(--clr-orange);
 }
 
-/* To show or hide the cards */
-
-.show {
-    display: flex;
-}
-
+/* For hiding one of the cards */
 .hidden {
     display: none;
 }
