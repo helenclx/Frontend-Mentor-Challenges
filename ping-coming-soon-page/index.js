@@ -12,25 +12,24 @@ const validateForm = (event) => {
   
     // If the input is blank
     if (emailInput.value === "") {
-        noEmailMsg.classList.add("show");
         noEmailMsg.classList.remove("hidden");
         invalidEmailMsg.classList.add("hidden");
-        invalidEmailMsg.classList.remove("show");
         emailInput.focus();
         return false;
     }
-
     // If the input email address is not valid
-    if (!emailIsValid(emailInput.value)) {
-        invalidEmailMsg.classList.add("show");
+    else if (!emailIsValid(emailInput.value)) {
         invalidEmailMsg.classList.remove("hidden");
         noEmailMsg.classList.add("hidden");
-        noEmailMsg.classList.remove("show");
         emailInput.focus();
         return false;
     }
-  
-    return true;
+    else {
+        noEmailMsg.classList.add("hidden");
+        invalidEmailMsg.classList.add("hidden");
+        newsletFormEl.reset();
+        return true;
+    }
 }
 
 submitBtnEl.addEventListener('click', validateForm);

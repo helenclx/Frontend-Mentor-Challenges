@@ -188,11 +188,7 @@ footer {
     transition: 0.3s;
 }
 
-/* To show or hide error messages */
-.show {
-    display: block;
-}
-
+/* For hiding error messages */
 .hidden {
     display: none;
 }
