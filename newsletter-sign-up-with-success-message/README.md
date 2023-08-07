@@ -40,7 +40,7 @@ Mobile:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-newsletter-signup-form-using-vanilla-javascript-4ITcDDwYdB
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/newsletter-sign-up-with-success-message/
 
 ## My process

@@ -29,6 +29,7 @@ My Frontend Mentor profile: https://www.frontendmentor.io/profile/helenclx
 | Profile card component | 1 - Newbie | [Link](https://www.frontendmentor.io/solutions/responsive-profile-card-component-using-flexbox-8EN3jyK-GM) | [Link](https://helenclx.github.io/Frontend-Mentor-Challenges/profile-card-component/) | [Link](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/profile-card-component/) |
 | FAQ accordion card | 1 - Newbie | [Link](https://www.frontendmentor.io/solutions/faq-accordion-card-without-javascript-42vn9Q9lsO) | [Link](https://helenclx.github.io/Frontend-Mentor-Challenges/faq-accordion-card/) | [Link](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/faq-accordion-card) |
 | Ping single column coming soon page | 1 - Newbie | [Link](https://www.frontendmentor.io/solutions/responsive-ping-coming-soon-page-with-vanilla-javascript-y6sfGWPXFH) | [Link](https://helenclx.github.io/Frontend-Mentor-Challenges/ping-coming-soon-page/) | [Link](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/ping-coming-soon-page) |
+| Newsletter sign-up form with success message | 2 - Junior | [Link](https://www.frontendmentor.io/solutions/responsive-newsletter-signup-form-using-vanilla-javascript-4ITcDDwYdB) | [Link](https://helenclx.github.io/Frontend-Mentor-Challenges/newsletter-sign-up-with-success-message/) | [Link](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/newsletter-sign-up-with-success-message) |
 
 
 ## Useful resources
