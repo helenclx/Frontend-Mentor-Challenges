@@ -43,7 +43,7 @@ These resources have been useful throughout my work in solving the Frontend Ment
 ### CSS general
 
 - [Modern CSS Solutions](https://moderncss.dev/) - Stephanie Eckles's blog
-- [A Modern CSS Reset](https://andy-bell.co.uk/a-modern-css-reset/) by Andy Bell
+- [A Modern CSS Reset](https://andy-bell.co.uk/a-more-modern-css-reset/) by Andy Bell
 
 ### CSS Grid
 
