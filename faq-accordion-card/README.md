@@ -67,7 +67,7 @@ I got to practice using CSS's `transform` property to rotate an image, by making
 
 ### Continued development
 
-Iintend to make full use of `<details>` and `<summary>` elements to build accordions.
+I intend to make full use of `<details>` and `<summary>` elements to build accordions.
 
 ### Useful resources
 
