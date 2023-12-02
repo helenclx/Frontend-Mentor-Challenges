@@ -1,6 +1,6 @@
 # Frontend Mentor - FAQ accordion card solution
 
-This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -28,10 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop:  
+Desktop:
 ![](./screenshot-desktop.png)
 
-Mobile:  
+Mobile:
 ![](./screenshot-mobile.png)
 
 ### Links
@@ -67,7 +67,7 @@ I got to practice using CSS's `transform` property to rotate an image, by making
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Iintend to make full use of `<details>` and `<summary>` elements to build accordions.
 
 ### Useful resources
 
