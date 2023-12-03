@@ -1,0 +1,225 @@
+/* ------------------- */
+/* Custom Properties   */
+/* ------------------- */
+:root {
+    --clr-white: 0 0% 100%;
+    --clr-light-pink: 275 100% 97%;
+    --clr-grayish-purple: 292 16% 49%;
+    --clr-dark-purple: 292 42% 14%;
+    --clr-attribution-link: 228 45% 44%;
+
+    --ff-body: 'Work Sans';
+    --fs-p: 1rem; /* 16 px */
+    --fw-regular: 400;
+    --fw-medium: 600;
+    --fw-bold: 700;
+}
+
+/* ------------------- */
+/* CSS Reset           */
+/* ------------------- */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+    line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+    text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+    font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
+
+/* ------------------- */
+/* STYLING BEGINS      */
+/* ------------------- */
+
+/* General styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--ff-body), Arial, Helvetica, sans-serif;
+    font-size: var(--fs-p);
+    color: var(--clr-dark-purple);
+    background-color: var(--clr-light-pink);
+    background-image: url(assets/images/background-pattern-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+hr {
+    border: 0.1rem solid var(--clr-light-pink);
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+/* FAQ Card */
+.faq-card {
+    max-width: 90%;
+    background-color: hsl(var(--clr-white));
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2.5rem 2.5rem hsl(var(--clr-grayish-purple) / 0.15);
+}
+
+.faq-card__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.faq-card__title img {
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+.faq-card__title h1 {
+    font-weight: var(--fw-bold);
+}
+
+.faq-card__trigger {
+    font-weight: var(--fw-bold);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.faq-card__trigger::after {
+    content: url(assets/images/icon-plus.svg);
+    transform: translateY(0.2em);
+}
+
+.faq-card__entry[open] .faq-card__trigger::after {
+    content: url(assets/images/icon-minus.svg);
+}
+
+.faq-card__trigger:focus-visible {
+    outline: 0.2rem solid hsl(var(--clr-dark-purple));
+}
+
+.faq-card__question {
+    max-width: 80%;
+}
+
+.faq-card__question:hover {
+    color: hsl(var(--clr-grayish-purple));
+}
+
+.faq-card__answer {
+    padding: 1rem 0;
+}
+
+.faq-card__entry[open] .faq-card__answer {
+    animation: openDown 0.2s linear forwards;
+}
+
+@keyframes openDown {
+    0% {
+        opacity: 0;
+        transform: translatey(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
+
+/* Attribution */
+.attribution {
+    font-size: 0.6875rem; /* 11px */
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.attribution a {
+    color: hsl(var(--clr-attribution-link));
+}
+
+.attribution a:focus {
+    outline: solid 0.2em hsl(var(--clr-attribution-link));
+}
+
+/* Screen sizes larger than mobile */
+@media only screen and (min-width: 30rem) {}
+
+/* Tablet screen size */
+@media only screen and (min-width: 43.75rem) {
+    .faq-card {
+        max-width: 35rem;
+    }
+}
+
+/* Desktop screen size */
+@media only screen and (min-width: 60rem) {
+    body {
+        background-image: url(assets/images/background-pattern-desktop.svg);
+    }
+}
