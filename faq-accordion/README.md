@@ -37,7 +37,7 @@ Mobile:
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://www.frontendmentor.io/solutions/faq-accordion-with-html-css-and-no-javascript-Yvgwi8Gg3w
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/faq-accordion/
 
 ## My process
