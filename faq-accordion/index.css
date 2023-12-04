@@ -152,6 +152,10 @@ summary:hover {
     padding: 0.5rem 0;
 }
 
+.faq-card__trigger:hover {
+    color: hsl(var(--clr-grayish-purple));
+}
+
 .faq-card__trigger::after {
     content: url(assets/images/icon-plus.svg);
     transform: translateY(0.2em);
@@ -167,10 +171,6 @@ summary:hover {
 
 .faq-card__question {
     max-width: 80%;
-}
-
-.faq-card__question:hover {
-    color: hsl(var(--clr-grayish-purple));
 }
 
 .faq-card__answer {
