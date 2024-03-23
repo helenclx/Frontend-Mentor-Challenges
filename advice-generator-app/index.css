@@ -172,6 +172,11 @@ main {
     box-shadow: 0 0 3em var(--clr-neon-green);
 }
 
+.advice__btn:focus {
+    outline: 0.3em solid var(--clr-neon-green);
+    outline-offset: 0.3em;
+}
+
 /* Utility Classes */
 .sr-only {
     position: absolute;
