@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope:wght@800&display=swap">
+
+        <script src="./index.js" defer></script>
+
+        <title>Advice generator app | Frontend Mentor challenge</title>
+    </head>
+    <body>
+        <h1 class="sr-only">Advice Generator</h1>
+        <main>
+            <section class="advice__container">
+                <p class="advice__id">Advice #<span id="advice-id"><!-- Advice ID goes here --></span></p>
+
+                <h2 class="advice__msg">
+                    "<span id="advice-msg"><!-- Advice text goes here --></span>"
+                </h2>
+            </section>
+            <picture class="advice__divider">
+                <source media="(min-width: 30rem)" srcset="./images/pattern-divider-desktop.svg">
+                <img src="./images/pattern-divider-mobile.svg" alt="">
+            </picture>
+        </main>
+        <button class="advice__btn" aria-label="Generate new advice">
+            <img src="./images/icon-dice.svg" alt="">
+        </button>
+        <footer class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="https://helenclx.github.io/" target="_blank">Helen Chong</a>.
+        </footer>
+    </body>
+</html>

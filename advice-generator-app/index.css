@@ -1,0 +1,204 @@
+/* ------------------- */
+/* Custom Properties   */
+/* ------------------- */
+
+:root {
+    /* Primary Colors */
+    --clr-light-cyan: hsl(193, 38%, 86%);
+    --clr-neon-green: hsl(150, 100%, 66%);
+    /* Neutral Colors */
+    --clr-grayish-blue: hsl(217, 19%, 38%);
+    --clr-dark-grayish-blue: hsl(217, 19%, 24%);
+    --clr-dark-blue: hsl(218, 23%, 16%);
+    /* Font family */
+    --ff-default: 'Manrope';
+    /* Font Size */
+    --fs-quote: 1.75rem; /* 28px */
+}
+
+/* ------------------- */
+/* CSS Reset           */
+/* ------------------- */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+    line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+    text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+    font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
+
+/* ------------------- */
+/* STYLING BEGINS      */
+/* ------------------- */
+
+/* General Styles */
+body {
+    font-family: var(--ff-default), Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: var(--clr-light-cyan);
+    background-color: var(--clr-dark-blue);
+}
+
+main {
+    background-color: var(--clr-dark-grayish-blue);
+    padding: 3em 2em 5em;
+    max-width: 90%;
+    border-radius: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Flex containers */
+body,
+main,
+.advice__container,
+.advice__divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body,
+.advice__container {
+    gap: 1em;
+}
+
+main {
+    gap: 2em;
+}
+
+/* Advice Container */
+.advice__container {
+    width: 100%;
+}
+
+.advice__id {
+    color: var(--clr-neon-green);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+}
+
+.advice__msg {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.advice__divider {
+    width: 100%;
+}
+
+/* Advice Generator Button */
+.advice__btn {
+    border: none;
+    background-color: var(--clr-neon-green);
+    padding: 1.4em;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin-top: -3.3em;
+}
+
+.advice__btn:hover {
+    box-shadow: 0 0 3em var(--clr-neon-green);
+}
+
+/* Utility Classes */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Attribution */
+.attribution {
+    font-size: 0.6875rem; /* 11px */
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.attribution a {
+    color: var(--clr-neon-green);
+}
+
+/* Tablet screen size */
+@media only screen and (min-width: 43.75rem) {
+    main {
+        max-width: 35rem;
+    }
+}
