@@ -10,7 +10,8 @@ const fetchData = async () => {
         const data = await res.json();
         getAdvice(data.slip);
     } catch (err) {
-        console.log(err);
+        console.error(err);
+        alert(`There was an error in loading the advice\n\nError:\n${err}`);
     }
 };
 
