@@ -5,9 +5,6 @@ const adviceMsgEl = document.querySelector('#advice-msg');
 const adviceBtn = document.querySelector('.advice__btn');
 
 const fetchData = async () => {
-    adviceIdEl.textContent = '';
-    adviceMsgEl.textContent = '';
-
     try {
         const res = await fetch(adviceApiUrl, { cache: "no-cache" });
         const data = await res.json();
