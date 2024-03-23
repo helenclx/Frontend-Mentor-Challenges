@@ -36,7 +36,7 @@ Mobile:
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://www.frontendmentor.io/solutions/advice-generator-app-with-vanilla-javascript-c3BKyJh-M8
 - Live Site URL: https://helenclx.github.io/Frontend-Mentor-Challenges/advice-generator-app/
 
 ## My process

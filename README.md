@@ -31,6 +31,7 @@ My Frontend Mentor profile: https://www.frontendmentor.io/profile/helenclx
 | Ping single column coming soon page | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/responsive-ping-coming-soon-page-with-vanilla-Repository-y6sfGWPXFH) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/ping-coming-soon-page/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/ping-coming-soon-page) |
 | Newsletter sign-up form with success message | 2 - Junior | [Solution](https://www.frontendmentor.io/solutions/responsive-newsletter-signup-form-using-vanilla-javascript-4ITcDDwYdB) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/newsletter-sign-up-with-success-message/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/newsletter-sign-up-with-success-message) |
 | FAQ accordion | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/faq-accordion-with-html-css-and-no-javascript-Yvgwi8Gg3w) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/faq-accordion/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/faq-accordion) |
+| Advice generator app | 2 - Junior | [Solution](https://www.frontendmentor.io/solutions/advice-generator-app-with-vanilla-javascript-c3BKyJh-M8) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/advice-generator-app/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/advice-generator-app) |
 
 
 ## Useful resources
