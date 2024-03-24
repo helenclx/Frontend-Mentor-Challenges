@@ -8,7 +8,7 @@ const displaySolutions = (arr) => {
 
         solutionsEl.innerHTML += `
         <div class="solution__card">
-            <img src="./${folderName}/screenshot-desktop.png" alt="${challenge} solution" class="solution__img">
+            <img src="./${folderName}/screenshot-desktop.png" alt="${challenge} solution" class="solution__img" loading="lazy">
             <h2 class="solution__challenge">${challenge}</h2>
             <ul class="solution__links">
                 <li><a href="${solutionUrl}" target="_blank">Solution</a></li>
