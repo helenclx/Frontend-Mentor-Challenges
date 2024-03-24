@@ -2,37 +2,8 @@
 
 My solutions to the [Frontend Mentor challenges](https://www.frontendmentor.io/challenges).
 
-My Frontend Mentor profile: https://www.frontendmentor.io/profile/helenclx
-
+You can view all the challenges I have completed on this [dedicated web page](https://helenclx.github.io/Frontend-Mentor-Challenges/) or my [Frontend mentor profile](https://www.frontendmentor.io/profile/helenclx).
 ## Table of contents
-
-- [Completed challenges](#completed-challenges)
-- [Useful resources](#useful-resources)
-    - [Frontend web design](#frontend-web-design)
-    - [CSS general](#css-general)
-    - [CSS Grid](#css-grid)
-    - [Flexbox](#flexbox)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-## Completed challenges
-
-| Challenge Name | Difficulty | Solution | Live Site | Repository |
-| :--- | :--- | :----: | :----: | :----: |
-| QR code component | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/mobilefriendly-qr-code-page-using-flexbox-7qc88MuUbG) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/qr-code-component/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/qr-code-component) |
-| Product preview card component | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-css-grid-and-flexbox-Rui57Kc09b) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/product-preview-card-component/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/product-preview-card-component) |
-| Results summary component | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/responsive-results-summary-using-css-grid-and-flexbox-AY52dCLJrO) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/results-summary-component/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/results-summary-component) |
-| Interactive rating component | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-javascript-rfiO0cERCQ) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/interactive-rating-component/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/interactive-rating-component) |
-| Order summary component | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/responsive-order-summary-card-using-flexbox-LjQRt6r5am) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/order-summary-component/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/order-summary-component) |
-| Stats preview card component | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-using-css-grid-and-flexbox-WBtIASipyN) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/stats-preview-card-component/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/stats-preview-card-component) |
-| 3-column preview card component | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-with-css-grid-and-flexbox-kdwbHs_RbX) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/3-column-preview-card-component/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/3-column-preview-card-component/) |
-| Profile card component | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/responsive-profile-card-component-using-flexbox-8EN3jyK-GM) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/profile-card-component/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/profile-card-component/) |
-| FAQ accordion card | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-without-javascript-42vn9Q9lsO) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/faq-accordion-card/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/faq-accordion-card) |
-| Ping single column coming soon page | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/responsive-ping-coming-soon-page-with-vanilla-Repository-y6sfGWPXFH) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/ping-coming-soon-page/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/ping-coming-soon-page) |
-| Newsletter sign-up form with success message | 2 - Junior | [Solution](https://www.frontendmentor.io/solutions/responsive-newsletter-signup-form-using-vanilla-javascript-4ITcDDwYdB) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/newsletter-sign-up-with-success-message/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/newsletter-sign-up-with-success-message) |
-| FAQ accordion | 1 - Newbie | [Solution](https://www.frontendmentor.io/solutions/faq-accordion-with-html-css-and-no-javascript-Yvgwi8Gg3w) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/faq-accordion/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/faq-accordion) |
-| Advice generator app | 2 - Junior | [Solution](https://www.frontendmentor.io/solutions/advice-generator-app-with-vanilla-javascript-c3BKyJh-M8) | [Live Site](https://helenclx.github.io/Frontend-Mentor-Challenges/advice-generator-app/) | [Repository](https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/advice-generator-app) |
-
 
 ## Useful resources
 
