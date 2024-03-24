@@ -22,9 +22,6 @@ const getAdvice = (obj) => {
     adviceMsgEl.textContent = advice;
 };
 
-adviceBtn.addEventListener('click', () => {
-    console.log('Advice generator button clicked');
-    fetchData();
-});
+adviceBtn.addEventListener('click', fetchData);
 
 fetchData();
