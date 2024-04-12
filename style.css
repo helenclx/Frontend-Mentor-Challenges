@@ -191,6 +191,11 @@ body {
     width: 1.6rem;
 }
 
+.top-btn:focus {
+    outline: 0.2em solid var(--clr-top-btn);
+    outline-offset: 0.15em;
+}
+
 .hidden {
     display: none;
 }
