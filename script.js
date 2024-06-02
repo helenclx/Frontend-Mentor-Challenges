@@ -11,9 +11,9 @@ const displaySolutions = (arr) => {
             <img src="./${folderName}/screenshot-desktop.png" alt="${challenge} solution" class="solution__img" loading="lazy">
             <h2 class="solution__challenge">${challenge}</h2>
             <ul class="solution__links">
-                <li><a href="${solutionUrl}" target="_blank">Solution</a></li>
-                <li><a href="https://helenchong.dev/Frontend-Mentor-Challenges/${folderName}" target="_blank">Live Site</a></li>
-                <li><a href="https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/${folderName}" target="_blank">Repository</a></li>
+                <li><a href="${solutionUrl}">Solution</a></li>
+                <li><a href="https://helenchong.dev/Frontend-Mentor-Challenges/${folderName}">Live Site</a></li>
+                <li><a href="https://github.com/helenclx/Frontend-Mentor-Challenges/tree/main/${folderName}">Repository</a></li>
             </ul>
         </div>
         `;
