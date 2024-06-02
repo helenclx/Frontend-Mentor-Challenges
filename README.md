@@ -31,7 +31,7 @@ These resources have been useful throughout my work in solving the Frontend Ment
 
 ## Author
 
-- Website - [Helen Chong](https://helenclx.github.io/)
+- Website - [Helen Chong](https://helenchong.dev/)
 - Frontend Mentor - [@helenclx](https://www.frontendmentor.io/profile/helenclx)
 
 ## Acknowledgments
