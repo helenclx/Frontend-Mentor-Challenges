@@ -21,13 +21,13 @@ These resources have been useful throughout my work in solving the Frontend Ment
 
 - [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) by Chris House
 - [Complete CSS Grid Tutorial with Cheat Sheet](https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/) by Joy Shaheb
-- [GRID](https://grid.malven.co/) - A visual cheatsheet for CSS grid layout
+- [GRID: A simple visual cheatsheet for CSS Grid Layout](https://grid.malven.co/)
 
 ### Flexbox
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by Chris Coyier
 - [CSS Flexbox Tutorial with Flexbox Properties Cheat Sheet](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) by Joy Shaheb
-- [Flexbox Cheat Sheet](https://flexboxcheatsheet.com/)
+- [FLEX: A simple visual cheatsheet for flexbox](https://flexbox.malven.co/)
 
 ## Author
 
