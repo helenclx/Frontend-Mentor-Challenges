@@ -2,7 +2,7 @@
 
 My solutions to the [Frontend Mentor challenges](https://www.frontendmentor.io/challenges).
 
-You can view all the challenges I have completed on this [dedicated web page](https://helenchong.dev/Frontend-Mentor-Challenges/) or my [Frontend mentor profile](https://www.frontendmentor.io/profile/helenclx).
+You can view all the challenges I have completed on this [dedicated web page](https://helenclx.github.io/Frontend-Mentor-Challenges/) or my [Frontend mentor profile](https://www.frontendmentor.io/profile/helenclx).
 
 ## Useful resources
 
